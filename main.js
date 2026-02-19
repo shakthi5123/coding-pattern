@@ -17,3 +17,32 @@ function findEvenNumber(arr) {
 
    return count;
 }
+
+
+function add(arr) {
+   let sum = 0;;
+
+   for (let i = 0; i < arr.length; i++) {
+      sum += arr[i]
+   }
+   return sum
+}
+
+
+const arr = [6, 2, 9, 1]
+
+function findMin(arr) {
+   let min = arr[0];
+
+   for (let i = 0; i < arr.length; i ++){
+      if (arr[i] < min) {
+         min = arr[i]
+      }
+   }
+
+   return min;
+}
+
+
+
+
